@@ -1,13 +1,18 @@
 html{
   width: 100%;
-  height: 100%;
+  height: 90%;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 div{
   color: rgb(100, 100, 100);
-  width: 850px;
-  margin-left: 30%;
   font-family: 'arial';
+  width: 50%;
   border-style: solid;
   border-color: #e7e7e7;
   border-radius: 10px;
@@ -16,7 +21,7 @@ div{
   background-image: url(cope4capital.png);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 110%;
 }
 
 section{
