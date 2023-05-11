@@ -7,15 +7,15 @@ html{
 
 *{
   font-family: sans-serif;
-  color: rgb(18, 22, 75);
+  color: rgb(215, 255, 255);
 }
 
 body{
   margin-left: 22%;
   width: 900px;
-  height: 1520px;
+  height: 1830px;
   border-radius: 20px;
-  background-color: rgb(250, 250, 250, 0.75);
+  background-color: rgba(7, 10, 80, 0.8);
 }
 
 .box{
@@ -69,7 +69,8 @@ footer{
 }
 
 .linkedin:hover{
-  opacity: 0.7;
+  opacity: 0.85;
+  box-shadow: 1.5px 1.5px rgb(170, 255, 255, 0.8);
 }
 
 .text-shadow-drop-bottom {
@@ -79,7 +80,7 @@ footer{
 
 @-webkit-keyframes text-shadow-drop-bottom {
   0% {
-    text-shadow: 0 0 0 rgb(0, 0, 0);
+    text-shadow: 0 0 0 rgb(116, 239, 255);
   }
   100% {
     text-shadow: 0 6px 18px rgba(0, 0, 0, 0.5);
@@ -87,10 +88,10 @@ footer{
 }
 @keyframes text-shadow-drop-bottom {
   0% {
-    text-shadow: 0 0 0 rgb(143, 143, 143);
+    text-shadow: 0 0 0 rgb(0, 162, 255);
   }
   100% {
-    text-shadow: 0 6px 18px rgb(110, 110, 110);
+    text-shadow: 0 6px 18px rgb(0, 162, 255);
   }
 }
 
