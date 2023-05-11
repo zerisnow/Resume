@@ -7,15 +7,15 @@ html{
 
 *{
   font-family: sans-serif;
-  color: grey;
+  color: rgb(18, 22, 75);
 }
 
 body{
-  margin-left: 25%;
+  margin-left: 22%;
   width: 900px;
-  height: 1500px;
+  height: 1520px;
   border-radius: 20px;
-  background-color: #fff;
+  background-color: rgb(250, 250, 250, 0.75);
 }
 
 .box{
@@ -28,7 +28,7 @@ body{
   width: 180px; 
   height: 180px; 
   border-radius: 150px; 
-  float: right
+  float: right;
 }
 
 h1{
@@ -59,6 +59,17 @@ h3{
 
 footer{
   height: 50px;
+}
+
+.linkedin {
+  width: 30px; 
+  height: 30px; 
+  border-radius: 5px; 
+  float: left;
+}
+
+.linkedin:hover{
+  opacity: 0.7;
 }
 
 .text-shadow-drop-bottom {
