@@ -24,10 +24,10 @@ body{
 }
 
 .foto{
-  margin: 20px;
+  margin: 0px 0px 15px 15px;
   width: 180px; 
-  height: 180px; 
-  border-radius: 150px; 
+  height: 180px;
+  border-radius: 150px;
   float: right;
 }
 
